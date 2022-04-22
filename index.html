@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Room Generator</title>
+</head>
+<body>
+	<h1>Welcome to the Room Generator</h1>
+	<h6>Bilaws determined by President Shmurda</h6>
+	<img src="baby.webp">
+
+	<p id="tag1"></p>
+
+	<script type="text/javascript">
+		
+		prompt("Please be aware this process follows thy Bilaws determined by President Shmurda. Only the council which holds an annual meeting on 4/20 can reconcile any disagreement. Please type 'I agree' to continue"); 
+		var name = prompt("What is your name?" ); 
+		var num = Math.floor(Math.random() * 3) + 1; 
+
+		if (name == "Arvind" || name == "arvind") {
+			document.getElementById("tag1").innerHTML = name + " will be #4 in the housing lottery"; 
+		}
+		else {
+			document.getElementById("tag1").innerHTML = name + " will be #" + num + " in the housing lottery"; 
+		}
+
+
+
+
+
+	</script>
+</body>
+</html>
